@@ -1,0 +1,107 @@
+.iconname{
+    font-size: 2rem;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+ }
+
+.text{
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+     
+}
+.inputBoxStyle{
+    background-color: white;
+     
+     height: 4rem;
+     border: 0.1rem solid gray;
+     box-shadow: 0px 0px 9px 3px gray;
+     width: 60vw;
+     display: flex;
+     
+     border-radius: 1.5rem;
+     align-items: center;
+}
+.location{
+    color: red;
+    font-size: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.search{
+    color: black;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.input1{
+    border: none;
+    outline: none;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-left: 2rem; 
+}
+.input2{
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 30vw;
+    font-size: 1.5rem;
+    padding-left: 2rem; 
+}
+.popOver{
+     background-color: whitesmoke;  
+    position: absolute;
+    color: black;
+    top:  5.5rem;
+    left: 27.3rem;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+     
+     
+    font-size: 1.5rem;  
+}
+.location{
+    color: red;
+    font-size: 2rem;
+    opacity: 0.5;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.userName{
+    font-size: 1.6rem;
+    
+    letter-spacing: 0.1rem;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.search{
+    color: black;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.places{
+    /* border: 0.1rem solid gray;
+    padding: 0.5rem;
+    
+    background-color: white; */
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    box-shadow: 0px 0px 2.5px 1px gray;
+    gap: 2rem;
+    border-bottom: 1px dotted rgb(203, 203, 203);
+    cursor: pointer;
+}

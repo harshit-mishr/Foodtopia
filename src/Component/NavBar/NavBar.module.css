@@ -1,0 +1,154 @@
+.mainbox{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-repeat: no-repeat;
+    height: 110%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    
+}
+.Box{
+    display: flex;
+    flex-direction: row;
+    
+    color: white;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1.4rem;
+    
+}
+.Box2{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
+   color: white;
+   
+}
+.navbarText{
+    font-family: Okra, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.user{
+   display: flex;
+   gap: 0.5rem;
+}
+.Content{
+    padding-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+ .iconname{
+    font-size: 5rem;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+ }
+
+ @-webkit-keyframes up-down{
+    0%{
+        transform: translate(10px);
+    }
+    100%{
+        transform: translate(-10px);
+    }
+ }
+ @keyframes up-down{
+    0%{
+        transform: translate(10px);
+    }
+    100%{
+        transform: translate(-10px);
+    }
+ }
+ 
+.iconimg{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+.logo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.text{
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.inputBoxStyle{
+    background-color: white;
+     margin-bottom: 5rem;
+     height: 5rem;
+     width: 60vw;
+     display: flex;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     margin-top: 2.5rem;
+     border-radius: 1.5rem;
+     align-items: center;
+}
+.location{
+    color: red;
+    font-size: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.search{
+    color: black;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.input1{
+    border: none;
+    outline: none;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding-left: 2rem; 
+}
+.input2{
+    border: none;
+    outline: none;
+    height: 4rem;
+    width: 30vw;
+    font-size: 1.5rem;
+    padding-left: 2rem; 
+}
+.popOver{
+     background-color: whitesmoke;  
+    position: absolute;
+    color: black;
+    top: 34rem;
+    left: 23rem;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+     
+     
+    font-size: 1.5rem;
+    
+    
+}
+.places{
+    /* border: 0.1rem solid gray;
+    padding: 0.5rem;
+    
+    background-color: white; */
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    gap: 2rem;
+    border-bottom: 1px dotted rgb(203, 203, 203);
+    cursor: pointer;
+}

@@ -1,0 +1,120 @@
+.mainbox{
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
+   
+}
+.boxImg{
+    border-radius: 1.6rem; 
+}
+.box{
+     border: 0.1rem solid rgb(232, 232, 232); 
+     margin-right: 2rem;
+     padding: 1rem;
+     border-radius: 1.6rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.growthImg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.discountTime  {
+    display: flex;
+    gap: 15vw;
+      
+     margin-top: -8vh;
+
+    font-size: 1.3rem;
+}
+.time{
+    
+ 
+    bottom: 1.2rem;
+    right: 1.2rem;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(0.4rem); 
+    border-radius: 0.4rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: rgb(54, 54, 54);
+    width: max-content;
+    padding: 0.2rem 0.5rem 0.3rem;
+}
+
+.HotelNameRating{
+    display: flex;
+     justify-content: space-between;
+    font-size: 1.5rem;
+}
+.discount{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 0px 0.6rem;
+    background: rgb(37, 111, 239);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    width: max-content;
+    border-radius: 0px 0.2rem 0.2rem 0px;
+    
+    white-space: nowrap;
+}
+/* .box :hover{
+    
+    
+    box-shadow: 0px 0px 2px 2px gray;
+} */
+.typeRs{
+    display: flex;
+    gap: 12rem;
+     font-size: 1.2rem;
+    margin: 0px;
+    text-align: left;
+     
+    white-space: nowrap;
+    color: rgb(105, 105, 105);
+    
+    padding: 0px 0px 0.4rem;
+}
+.Hotel{
+    /* line-height: 1.2; */
+    /* margin-block-end: 0px; */
+    font-weight: 500;
+    /* text-align: left; */
+    font-size: 1.7rem;
+    margin: 0.8rem 0px 0.6rem;
+    max-width: 80%;
+    color: rgb(28, 28, 28);
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis;
+    white-space: nowrap; */
+}
+.Rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 126, 62);
+    color: rgb(255, 255, 255);
+    height: 2rem;
+     
+    padding: 0px 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(38, 126, 62);
+}
+.recent{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 1,3rem;
+}
+.imgSefty{
+    padding-left: 8rem;
+   width: 4rem;
+   height: 2rem;
+}
